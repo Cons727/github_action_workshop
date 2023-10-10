@@ -10,7 +10,7 @@ jobs:
   re-run:
     name: Re run analysis
     runs-on: ubuntu-latest
-    # This image has python, R and other things we need to run our mock analysis
+    # This docker image has python, R and other things we need to run our mock analysis
     container:
       image: jhudsl/ottr_python:main
 
